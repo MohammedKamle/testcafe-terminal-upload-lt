@@ -26,4 +26,4 @@ sessionId=$(grep -o 'sessionID=[^ ]*' "$FILE_PATH" | awk -F '=' '{print $2}')
 echo "Session ID: $sessionId"
 
 # api call to upload terminal logs to LT
-curl -X POST "https://api.lambdatest.com/automation/api/v1/sessions/${sessionId}/terminal-logs" -H "accept: application/json" -H "Authorization: Basic bW9oYW1tYWRrOmdrcnpUMGlGS2pEamVoWHBNVHpueE0xbEhJWlhTWWpWM0g4TnRrMHMyckNVSkpPM1dV" -H "Content-Type: multipart/form-data" -F "file=@output.txt;type=text/plain"
+curl -X POST "https://api.lambdatest.com/automation/api/v1/sessions/${sessionId}/terminal-logs" -H "accept: application/json" -H "Authorization: Basic <YOUR_BASIC_AUTH>" -H "Content-Type: multipart/form-data" -F "file=@output.txt;type=text/plain"

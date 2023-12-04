@@ -35,5 +35,5 @@ done < "$FILE"
 
 # Print each session ID
 for id in "${session_ids[@]}"; do
-    curl -X POST "https://api.lambdatest.com/automation/api/v1/sessions/${id}/terminal-logs" -H "accept: application/json" -H "Authorization: Basic bW9oYW1tYWRrOmdrcnpUMGlGS2pEamVoWHBNVHpueE0xbEhJWlhTWWpWM0g4TnRrMHMyckNVSkpPM1dV" -H "Content-Type: multipart/form-data" -F "file=@output.txt;type=text/plain"
+    curl -X POST "https://api.lambdatest.com/automation/api/v1/sessions/${id}/terminal-logs" -H "accept: application/json" -H "Authorization: Basic <YOUR_BASIC_AUTH>" -H "Content-Type: multipart/form-data" -F "file=@output.txt;type=text/plain"
 done
