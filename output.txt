@@ -1,0 +1,54 @@
+Current version of Node Tunnel:  4.0.5
+Verifying credentials
+Auth succeeded
+Checking for updates
+Binary already at latest version
+Starting tunnel
+Tunnel successfully initiated. You can start testing now
+capabilities {
+  tunnel: true,
+  plugin: 'testcafe-browser-provider-lambdatest:2.0.28',
+  isRealMobile: true,
+  browserName: 'safari',
+  platformName: 'ios',
+  deviceName: 'iPhone 13 Pro Max',
+  platformVersion: '15',
+  network: true,
+  visual: true,
+  terminal: true,
+  console: true,
+  build: 'testcafe-sample',
+  name: 'TestCafe test run 6a6hflZ',
+  tunnelName: 'TestCafe0_mohammadk-1701677269023'
+}
+capabilities {
+  tunnel: true,
+  plugin: 'testcafe-browser-provider-lambdatest:2.0.28',
+  browserName: 'chrome',
+  version: '75.0',
+  platform: 'windows 10',
+  network: true,
+  visual: true,
+  terminal: true,
+  console: true,
+  build: 'testcafe-sample',
+  name: 'TestCafe test run O6R8RKS',
+  tunnelName: 'TestCafe0_mohammadk-1701677269023'
+}
+ Running tests in:
+ - Chrome 75.0.3770.142 / Windows 10 ( https://automation.lambdatest.com/logs/?sessionID=CHQJA-7WFEC-CQJPI-8S5N5 )
+ - Safari 15.1 / iOS 15.1 ( https://automation.lambdatest.com/logs/?sessionID=f5c493eb-74c4-4ee4-b359-ebf3a000532c )
+
+ TestCafe example page
+This is test 1
+This is test 1
+ ✓ Test 1
+This is test 2
+This is test 2
+ ✓ Test 2
+This is test 3
+This is test 3
+ ✓ Test 3
+
+
+ 3 passed (28s)
